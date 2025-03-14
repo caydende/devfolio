@@ -1,0 +1,489 @@
+a{
+
+    text-decoration: none;
+
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.navbar-brand:focus, .navbar-brand:hover {
+    color: white;
+}
+
+
+
+
+
+
+
+
+.color-w{
+    color: white;
+}
+
+body{
+    background-color: #F4F5F4;
+}
+
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imags/hero-bg.jpg) ;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.comment-a{
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-transition: all 1s;
+    color: #1e1e1e;
+    font-size: 1.3rem;
+}
+
+.comment-card-desc{
+    color: #4e4e4e;
+
+}
+
+
+
+
+.comment-a:hover{
+    color: #0178FE;
+}
+
+
+.about-img{
+    margin-bottom: 2rem;
+}
+
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+
+.skill-t{
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 1.1rem;
+}
+    
+
+
+.skill-t span {
+    color: #4e4e4e;
+}
+
+
+.progress{
+    height: 0.7rem;
+    background-color: #88bfff;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    margin: 0.5rem 0 1.2rem 0;
+}
+
+
+
+.title-left{
+    font-size: 2rem;
+    position: relative;
+}
+
+.title-left:before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: -12px;
+}
+
+.title-box-2{
+    margin-bottom: 3rem;
+}
+
+
+.title-box{
+    margin-bottom: 4rem;
+}
+
+.about-img img{
+    margin-left: 10px;
+}
+.about-shadow{
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    padding: 3rem;
+}
+
+.service-title{
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.service-title-line{
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: 0 auto;
+}
+
+
+
+.service-card{
+    background-color: #fff;
+    padding: 2.5rem 1.3rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.service-icon{
+    margin-bottom: 1rem;
+    color: #1e1e1e;
+}
+
+.icon-circle{
+    height: 100px;
+    width: 100px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #0078ff;
+    display: block; 
+}
+
+.service-icon .icon-circle i {
+    line-height: 0;
+    font-size: 40px;
+}
+
+.service-card .icon-circle {
+    transition: all 500ms ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-content: space-around;
+}
+
+.service-card:hover .icon-circle {
+    transition: all 500ms ease;
+    color: #fff;
+    background-color: #0078ff;
+    box-shadow: 0 0 0 10px #cde1f8;
+}
+
+.card-title{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0.4rem 0;
+}
+
+.card-desc{
+    color: #748182;
+}
+
+.counter-bg{
+    position: relative;
+    padding: 8rem 0;
+    background-image: linear-gradient(  #0077ffdc , #0077ffb4) , url(../imags/counters-bg.jpg)  ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.w-img2{
+    width: 102px !important;
+    height: 150px !important;
+}
+
+
+.padding-comment{
+    padding: 0 7rem;
+}
+
+.w-img{
+    width: 150px !important;
+    
+}
+
+.counter-num .counter {
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+h1{
+    font-size: 4.5rem;
+}
+
+.counter-box {
+    color: #cde1f8;
+    text-align: center;
+}
+
+
+
+.counter-icon {
+    margin-bottom: 1rem;
+}
+
+nav{
+    z-index: 1000;
+}
+
+.counter-icon .icon-circle {
+    height: 60px;
+    width: 60px;
+    line-height: 1.5;
+    box-shadow: 0 0 0 10px #cde1f8;
+}
+
+.counter{
+    color: white;
+}
+
+.card-text span{
+    color: #0078ff;
+}
+
+.card-body h5{
+    text-align: start;
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.comments-sec{
+    padding: 8rem 0;
+    position: relative;
+    background-image: linear-gradient( #0077ffdc , #0077ffb4) ,url(../imags/overlay-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.card-style img{
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+
+    cursor: pointer;
+
+}
+
+.card-style:hover img{
+    scale: 140%;
+}
+
+
+.left-0{
+    right: 0;
+}
+.img-overflow{
+    overflow: clip;
+}
+
+.card-style{
+    border: none;
+    padding: 0;
+
+}
+
+
+.card-body p{
+
+    font-size: 0.7rem;
+    
+}
+
+.avatar {
+    min-width: 32px;
+    min-height: 32px;
+    max-width: 32px;
+    max-height: 32px;
+    margin-right: 4px;
+    overflow: hidden;
+}
+
+.publisher:hover p{
+    color: #0178FE;
+}
+
+
+.publisher p{
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+
+.comment-pop{
+
+    position: absolute;
+    text-align: center;
+    top: -16px;
+    left: 50%;
+    transform: translate(-50%);
+    line-height: 25px;
+    overflow: hidden;
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+}
+
+.comment-pop-inner{
+    padding: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    margin: 0;
+    width: 100%;
+    background-color: #0078ff;
+
+}
+
+
+.comment-h6{
+    color: white;
+    font-size: 0.7rem;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+.contact-sec{
+    padding: 8rem 0;
+    padding-bottom: 4rem;
+    position: relative;
+    background-image: linear-gradient( #0077ffdc , #0077ffb4) ,url(../imags/overlay-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+
+.contact-button{
+    background: #0078ff;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    font-size: 1.2rem;
+}
+
+
+.contact-bg{
+    background-color: #fff;
+}
+
+.list-icon {
+    line-height: 2;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+
+.list-icon span {
+    color: #0078ff;
+    margin-right: 10px;
+}
+
+
+.contact-media li{
+    display: inline-block;
+}
+
+
+.contact-media .icon-circle{
+    color: #1e1e1e;
+    height: 40px;
+    width: 40px;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    line-height: 1.6;
+    margin: 0 15px 0 0;
+    box-shadow: 0 0 0 3px #0078ff;
+    transition: all 500ms ease;
+}
+
+.icon-circle:hover {
+    transition: all 500ms ease;
+    color: #fff;
+    background-color: #0078ff;
+    box-shadow: 0 0 0 10px #cde1f8;
+}
+
+
+
+
+
+.copyright-footer{
+    background-color: #0062D3 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+.typewriter{
+    overflow: hidden;
+    border-right: .15em solid rgb(255, 255, 255);
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .1em;
+    animation:  typing 2s steps(40, end),    blink-caret .75s step-end infinite;
+    -webkit-animation:  typing 2s steps(16, end),    blink-caret .75s step-end infinite;
+}
+
+  /* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 16% }
+}
+
+  /* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(255, 255, 255); }
+}
